@@ -1,0 +1,22 @@
+# Datasets e imágenes de entrada (se descargan con kagglehub)
+Dataset/
+data/
+*.zip
+
+# Modelos entrenados (pesados, >100 MB en GitHub)
+*.h5
+*.keras
+*.pt
+*.pth
+saved_model/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
